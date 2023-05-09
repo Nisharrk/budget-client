@@ -7,9 +7,9 @@ const addBudgetButton = () => {
   };
 
   return (
-    <div className="flex justify-center">
+    <div className="flex justify-center item-center">
       <button
-        className="bg-teal-600 font-semibold hover:bg-black text-white p-3 rounded-xl bottom-8 w-full"
+        className="bg-teal-600 font-semibold hover:bg-black text-white p-3 rounded-xl w-full"
         onClick={handleClick}
       >
         Add Budget Entry

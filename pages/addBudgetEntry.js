@@ -42,8 +42,8 @@ const AddBudgetEntry = () => {
   };
 
   return (
-    <div className="bg-slate flex items-center justify-center mt-5">
-      <div className="w-full max-w-sm">
+    <div className="bg-slate flex items-center justify-center mt-10">
+      <div className="w-full max-w-md">
         <form
           className="bg-white p-6 rounded-lg shadow-md hover:shadow-xl hover:shadow-teal-500"
           onSubmit={handleSubmit}
